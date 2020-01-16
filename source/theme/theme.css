@@ -1,0 +1,11 @@
+@import './_color/theme_color_project-default.css';
+
+:root {
+    --red: red;
+}
+
+.theme {
+    background: black;
+    width: 100px;
+    height: 100px;
+}

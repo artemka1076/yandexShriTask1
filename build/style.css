@@ -1,0 +1,15 @@
+.theme_color_project-default {
+    color: #123424
+}
+:root {
+    --red: red;
+}
+
+.theme {
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+.layout{
+    background: --red;
+}

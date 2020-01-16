@@ -1,0 +1,25 @@
+{
+  "name": "shri-2020-task-1-stub",
+  "version": "1.0.0",
+  "description": "Project stub for BEMJSON render",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bem-xjst": "^8.9.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
