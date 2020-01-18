@@ -1,0 +1,10 @@
+.theme_color_project-inverse {
+    --foneColor: #000000;
+    --foneColorAccent: #FFFFFF;
+    --borderColor: #FFFFFF;
+    
+    --textColor: #FFFFFF;
+    --textColorSecondary: rgba(255, 255, 255, 0.6);
+    --textColorAdditional: rgba(255, 255, 255, 0.3);
+    --textColorLink: #0077ff;
+}

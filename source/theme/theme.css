@@ -1,11 +1,24 @@
 @import './_color/theme_color_project-default.css';
-
-:root {
-    --red: red;
-}
+@import './_color/theme_color_project-brand.css';
+@import './_color/theme_color_project-inverse.css';
+@import './_color/theme_color_project-warning.css';
+@import './_size/theme_size_default.css';
+@import './_space/theme_space_default.css';
+@import './_gap/theme_gap_small.css';
 
 .theme {
-    background: black;
-    width: 100px;
-    height: 100px;
+    --screen-m: 1024px;
 }
+
+*, ::after , ::before {
+    box-sizing: border-box;
+    margin: unset;
+    padding: unset;
+}
+
+@media screen and (max-width: 1024px) {
+    .theme > * {
+        flex-direction: column;
+        flex: 0 0 auto;
+    }
+ }

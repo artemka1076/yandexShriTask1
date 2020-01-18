@@ -1,1 +1,0 @@
-document.querySelector('.theme').addEventListener('click',() => {console.log("hellow")});

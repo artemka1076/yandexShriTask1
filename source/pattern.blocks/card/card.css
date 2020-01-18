@@ -1,0 +1,17 @@
+@import './__content/card__content.css';
+@import './__footer/card__footer.css';
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: relative;
+}
+
+.card_border_all {
+    border: 1px solid var(--borderColor);
+}
+
+.card_view_default {
+    background-color: var(--foneColor);
+}

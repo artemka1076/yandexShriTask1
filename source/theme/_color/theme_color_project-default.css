@@ -1,3 +1,10 @@
 .theme_color_project-default {
-    color: #123424
+    --foneColor: #FFFFFF;
+    --foneColorAccent: #ffcc00;
+    --borderColor: #000000;
+    
+    --textColor: #000000;
+    --textColorSecondary: rgba(0, 0, 0, 0.6);
+    --textColorAdditional: rgba(0, 0, 0, 0.6);
+    --textColorLink: #0077ff;
 }

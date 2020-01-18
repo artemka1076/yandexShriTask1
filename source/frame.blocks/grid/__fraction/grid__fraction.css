@@ -1,0 +1,34 @@
+.grid__fraction {
+    flex: 0 0  calc(var(--onePartWidth) * var(--columWidth));
+    padding-left: calc(var(--colGap) / 2);
+    padding-right: calc(var(--colGap) / 2);
+    margin-top: calc(var(--rowGap) / 2);
+    margin-bottom: calc(var(--rowGap) / 2);
+    display: flex;
+}
+
+.grid__fraction_m-col_2 {
+    --columWidth: 2;
+}
+
+.grid__fraction_m-col_3 {
+    --columWidth: 3;
+}
+
+.grid__fraction_m-col_4 {
+    --columWidth: 4;
+}
+
+.grid__fraction_m-col_5 {
+    --columWidth: 5;
+}
+
+.grid__fraction_m-col_8 {
+    --columWidth: 8;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid__fraction {
+        --columWidth: 1;
+    }
+ }

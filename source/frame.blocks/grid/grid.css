@@ -1,0 +1,45 @@
+@import './__fraction/grid__fraction.css';
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-left: calc(var(--colGap) / 2 * -1);
+    margin-right: calc(var(--colGap) / 2 * -1);
+    margin-top: calc(var(--rowGap) / 2 * -1);
+    margin-bottom: calc(var(--rowGap) / 2 * -1);
+}
+
+.grid_m-columns_12 {
+    --onePartWidth: calc(100% / 12);
+}
+
+.grid_m-columns_10 {
+    --onePartWidth: calc(100% / 10);
+}
+
+.grid_col-gap_two-thirds {
+    --colGap: calc(var(--gap) * 2 / 3);
+}
+
+.grid_col-gap_full {
+    --colGap: var(--gap);
+}
+
+.grid_col-gap_half {
+    --colGap: calc(var(--gap) / 2);
+}
+
+.grid_row-gap_full {
+    --rowGap: var(--gap);
+}
+
+.grid_row-gap_half {
+    --rowGap: calc(var(--gap) / 2);
+}
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        --onePartWidth: 100%;
+    }
+ }

@@ -1,0 +1,10 @@
+.theme_color_project-brand {
+    --foneColor: #0077ff;
+    --foneColorAccent: #FFFFFF;
+    --borderColor: #FFFFFF;
+    
+    --textColor: #FFFFFF;
+    --textColorSecondary: rgba(255, 255, 255, 0.6);
+    --textColorAdditional: rgba(255, 255, 255, 0.3);
+    --textColorLink: #FFFFFF;
+}
